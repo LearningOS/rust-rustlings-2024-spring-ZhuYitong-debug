@@ -5,13 +5,12 @@
 // Execute `rustlings hint primitive_types4` or use the `hint` watch subcommand
 // for a hint.
 
-// I AM NOT DONE
 
 #[test]
 fn slice_out_of_array() {
     let a = [1, 2, 3, 4, 5];
 
-    let nice_slice = ???
+    let nice_slice = &a[1..4]; //切片数据结构，后面的索引包含前部分，不包含后部分
 
     assert_eq!([2, 3, 4], nice_slice)
 }
