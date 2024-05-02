@@ -16,7 +16,7 @@ struct Node<T> {
 
 impl<T> Node<T> {
     fn new(t: T) -> Node<T> {
-        Node {
+        Node { 
             val: t,
             next: None,
         }
